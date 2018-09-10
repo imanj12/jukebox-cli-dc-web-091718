@@ -27,7 +27,7 @@ end
 
 def list(songs)
   
-  songs.each do |obj|
+  songs.each.with.index do |obj|
     
   end
   
