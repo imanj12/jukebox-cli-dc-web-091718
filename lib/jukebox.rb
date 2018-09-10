@@ -41,9 +41,9 @@ def play(songs)
   
   songs.each_with_index do |obj, i|
     if user_response == i + 1
-      return "Playing #{obj}"
+      puts "Playing #{obj}"
     elsif user_response == obj
-      return "Playing #{obj}"
+      puts "Playing #{obj}"
     else
       puts "Invalid input, please try again"
     end
