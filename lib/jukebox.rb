@@ -39,9 +39,11 @@ def play(songs)
   puts "Please enter a song name or number:"
   user_response = gets.chomp
   
+  
   songs.each_with_index do |obj, i|
     if user_response == i + 1
-      puts 
+      song_name = obj.split("-")
+      song_name[1]
   
 end
 
