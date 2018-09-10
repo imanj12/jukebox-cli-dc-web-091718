@@ -39,7 +39,7 @@ def play(songs)
   puts "Please enter a song name or number:"
   user_response = gets.chomp
   
-  songs.each_index do |obj, i|
+  songs.each_with_index do |obj, i|
     if user_response == i + 1
       puts "Playing #{obj}"
     elsif user_response == obj
