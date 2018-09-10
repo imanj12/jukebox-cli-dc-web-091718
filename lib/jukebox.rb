@@ -44,8 +44,17 @@ def play(songs)
     if user_response == i + 1
       split_song = obj.split("-")
       just_song_name = split_song[1][1..-1]
-      return "Playing #{just_song_name}"
-    elsif 
+      puts "Playing #{just_song_name}"
+    else
+      split_song = obj.split("-")
+      just_song_name = split_song[1][1..-1]
+      if user_response == just_song_name
+        puts "Playing #{just_song_name}"
+      else
+        puts "Invalid input, please try again"
+      end
+    end
+  end
       
   
 end
