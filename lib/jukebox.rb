@@ -34,10 +34,10 @@ def list(songs)
   
 end
 
-def 
+def play(songs)
 
+  
 
-
-
+end
 
 
