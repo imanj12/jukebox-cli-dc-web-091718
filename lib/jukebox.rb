@@ -68,7 +68,12 @@ def run
     puts "Please enter a command:"
     user_input = gets.chomp
     case user_input
-      when
+      when "list"
+        list
+      when "play"
+        play
+      when "help"
+        help
     end
     
     break if user_input == "exit"
