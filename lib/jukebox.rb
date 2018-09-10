@@ -42,11 +42,8 @@ def play(songs)
   songs.each_with_index do |obj, i|
     if user_response == i + 1
       puts "Playing #{obj}"
-    else
-      split_song = obj.split("-")
-      just_song_name = split_song[1][1..-1]
-      if user_response == just_song_name
-        puts "Playing #{just_song_name}"
+    elsif user_response == obj
+        puts "Playing #{ibj}"
       else
         puts "Invalid input, please try again"
       end
