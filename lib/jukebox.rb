@@ -43,7 +43,7 @@ def play(songs)
     if user_response == i + 1
       puts "Playing #{obj}"
     elsif user_response == obj
-        puts "Playing #{ibj}"
+        puts "Playing #{obj}"
     else
         puts "Invalid input, please try again"
     end
