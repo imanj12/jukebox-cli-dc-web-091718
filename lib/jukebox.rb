@@ -12,6 +12,9 @@ songs = [
 
 def help
 
+  help = "help : displays this help messages"
+  list = "list : displays a list of songs you can play"
+  play = "play : lets you choose a song to play"
   
 
 end
