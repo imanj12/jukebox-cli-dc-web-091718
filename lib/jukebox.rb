@@ -61,7 +61,7 @@ def exit_jukebox
    puts "Goodbye"
 end
 
-def run
+def run(songs)
   
   help
   loop do 
@@ -70,9 +70,9 @@ def run
     
     case user_input
       when "list"
-        list
+        list(songs)
       when "play"
-        play
+        play(songs)
       when "help"
         help
     end
