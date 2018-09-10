@@ -39,16 +39,16 @@ def play(songs)
   puts "Please enter a song name or number:"
   user_response = gets.chomp
   
-  song_array = songs.map.with_index do |obj, i|
+  songs.each_with_index do |obj, i|
     if user_response == i + 1
-      "Playing #{obj}"
+      song = "Playing #{obj}"
     elsif user_response == obj
-      "Playing #{obj}"
+      song = "Playing #{obj}"
     end
   end
   
-  if song_array.length > 0
-    puts song_array[0]
+  if song.length > 0
+    puts song
   else
     puts "Invalid input, please try again"
   end
