@@ -28,7 +28,8 @@ end
 def list(songs)
   
   songs.each.with.index do |obj, i|
-    
+    place = i + 1
+    puts "#{place}. #{obj}"
   end
   
 end
