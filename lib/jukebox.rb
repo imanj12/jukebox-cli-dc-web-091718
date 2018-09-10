@@ -50,8 +50,8 @@ def play(songs)
   if song_array.length > 0
     puts song_array[0]
   else
-    puts 
-    
+    puts "Invalid input, please try again"
+  end
       
 end
 
