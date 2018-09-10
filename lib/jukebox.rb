@@ -43,7 +43,7 @@ def play(songs)
   songs.each_with_index do |obj, i|
     if user_response == i + 1
       song_name = obj.split("-")
-      return song_name[1..-1]
+      return song_name[1][1..-1]
     elsif 
       
   
