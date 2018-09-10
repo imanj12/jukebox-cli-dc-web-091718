@@ -39,8 +39,8 @@ def play(songs)
   puts "Please enter a song name or number:"
   user_response = gets.chomp
   
+  if user_response.class == Integer
   
-
 end
 
 
