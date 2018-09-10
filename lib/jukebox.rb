@@ -17,4 +17,10 @@ def help
   play = "play : lets you choose a song to play"
   ext = "exit : exits this program"
 
+  puts "I accept the following commands:"
+  puts help
+  puts list
+  puts play
+  puts ext
+
 end
