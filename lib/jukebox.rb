@@ -64,13 +64,16 @@ end
 def run
   
   help
-  puts "Please enter a command:"
-  
-  user_input = gets.chomp
-  
-  case user_input
-  when ""
-  
+  loop do 
+    puts "Please enter a command:"
+    user_input = gets.chomp
+    case user_input
+      when
+    end
+    
+    break if user_input == "exit"
+    
+  end
 end
 
 
