@@ -45,7 +45,7 @@ def play(songs)
     elsif user_response == obj
       puts "Playing #{obj}"
     else
-      return "Invalid input, please try again"
+      puts "Invalid input, please try again"
     end
   end
       
