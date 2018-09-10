@@ -27,6 +27,7 @@ end
 
 def list(songs)
   
-  
+  songs.each do |obj|
+    
   
 end
