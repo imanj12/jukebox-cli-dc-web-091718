@@ -68,6 +68,8 @@ def run
   
   user_input = gets.chomp
   
+  case user_input
+  
   
 end
 
