@@ -42,7 +42,7 @@ def play(songs)
   song = ""
   
   songs.each_with_index do |obj, i|
-    if user_response == i + 1
+    if user_response == (i + 1)
       song = obj
     elsif user_response == obj
       song = obj
