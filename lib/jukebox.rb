@@ -25,7 +25,7 @@ def help
 
 end
 
-def list
+def list(songs)
   
   
   
