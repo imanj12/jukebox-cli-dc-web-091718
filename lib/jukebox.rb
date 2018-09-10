@@ -24,3 +24,9 @@ def help
   puts ext
 
 end
+
+def list
+  
+  
+  
+end
